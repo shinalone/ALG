@@ -1,6 +1,7 @@
 # coding=utf-8
 # author=uliontse
 
+# from __future__ import print_function,division
 import numpy as np
 
 def quick_sort(L):
@@ -13,3 +14,4 @@ def quick_sort(L):
 
 _ = np.__version__
 # TODO
+# logging.info(算法：时间复杂度，空间复杂度)
