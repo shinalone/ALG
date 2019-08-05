@@ -27,7 +27,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
 
-
 import bisect
 from heapq import merge
 
@@ -166,9 +165,3 @@ def shell_sort(L):
             L[i] = e
         middle = 1 if middle == 2 else int(middle * 5/11)
     return L
-
-
-# TODO
-# print(算法：时间复杂度，空间复杂度)
-
-
